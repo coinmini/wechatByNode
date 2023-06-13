@@ -1,6 +1,6 @@
-const express = require('express'), //express 框架 
+const express = require('express'), 
       wechat  = require('./wechat/wechat'), 
-       config = require('./config');//引入配置文件
+      config = require('./config');//引入配置文件
        
 var app = express();//实例express框架
 
