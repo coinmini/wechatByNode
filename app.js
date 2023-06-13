@@ -7,6 +7,7 @@ var app = express();//实例express框架
 var wechatApp = new wechat(config); //实例wechat 模块
 
 //用于处理所有进入 3000 端口 get 的连接请求
+//测试下看看能不能上传到自己的目录
 app.get('/',function(req,res){
     wechatApp.auth(req,res);
 });
